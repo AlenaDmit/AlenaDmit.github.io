@@ -2330,7 +2330,7 @@ h1, h2, p {
         font-size: 1.5rem; }
 
 .right__block {
-  background: url(/assets/img/bg2.png) repeat;
+  background: url(../img/bg2.png) repeat;
   padding: 30px 30px 30px 330px;
   min-height: 100vh; }
   .right__block .right__block-title {
