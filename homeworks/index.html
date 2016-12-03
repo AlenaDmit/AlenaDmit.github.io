@@ -1,39 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+  <meta charset="UTF-8"/>
+  <title>Document</title>
+  <link href="assets/css/index.css" rel="stylesheet"/>
 </head>
 <body>
-
-	<div><a href="./mySite" class="ref">inner link</a></div>
-
-
-	<style>
-		[contentEditable=true]:empty:not(:focus):before{
-	        content:attr(data-text);
-	        color: grey;
-	    }
-	    .hidden{
-	    	display: none;
-	    }
-
-		.sim{
-			min-height: 20px;
-			width: 200px;
-			border: 1px solid black;
-		}
-	</style>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-	<script>
-		$(".answer").click(function(e){
-			e.preventDefault();
-			// console.log($(this).closest(".hidden").hasClass('hidden'));
-			$(this).prev().toggleClass('hidden');
-		})
-	;</script>
-	
+  <div class="wrapper">
+    <div class="container">
+      <div class="block">
+        <div class="block__title">MathML</div>
+        <div class="block__desc">Let's see the formula on the MathML language!</div><a href="./1mathML.html" target="_blank" class="block__button"> 
+          <div class="block__link-text">Get it!</div></a>
+      </div>
+      <div class="block">
+        <div class="block__title">Live SVG</div>
+        <div class="block__desc">Let's create individual background with the help online SVG editor!</div><a href="./2livesvg.html" target="_blank" class="block__button"> 
+          <div class="block__link-text">Get it!</div></a>
+      </div>
+      <div class="block">
+        <div class="block__title">Parser</div>
+        <div class="block__desc">Let's check the line of brackets for compliance of correct sequence!</div><a href="./3parser.html" target="_blank" class="block__button"> 
+          <div class="block__link-text">Get it!</div></a>
+      </div>
+      <div class="block">
+        <div class="block__title">Get JSON</div>
+        <div class="block__desc">Let's get the content of the JSON file!</div><a href="./4getjson.html" target="_blank" class="block__button"> 
+          <div class="block__link-text">Get it!</div></a>
+      </div>
+    </div>
+  </div>
 </body>
-</html>
