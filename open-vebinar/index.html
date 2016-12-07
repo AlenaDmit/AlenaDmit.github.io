@@ -2,7 +2,7 @@
 <html lang="en"></html>
 <head>
   <meta charset="UTF-8"/>
-  <title>Open Vebinar</title>
+  <title>Main page</title>
   <link href="assets/css/index.css" rel="stylesheet"/>
 </head>
 <body>
@@ -16,9 +16,9 @@
           <p class="left__block-form_desc-item"><sup>*</sup>Количество мест ограничено</p>
         </div>
         <form method="POST" action="http://cp.unisender.com/ru/subscribe?hash=5gak6ycfo943mbeo3q4qr78upmcmswtxhzcyenhkcbp6quk1894oo" name="subscribtion_form" target="_blank" class="left__block-form">
-          <input type="text" name="f_5391861" placeholder="Имя" class="form__name form-item"/>
-          <input type="text" name="f_5391865" placeholder="Фамилия" class="form__surname form-item"/>
-          <input type="email" name="email" placeholder="Е-mail" class="form__email form-item"/>
+          <input type="text" name="f_5391861" placeholder="Имя" required="required" class="form__name form-item"/>
+          <input type="text" name="f_5391865" placeholder="Фамилия" required="required" class="form__surname form-item"/>
+          <input type="email" name="email" placeholder="Е-mail" required="required" class="form__email form-item"/>
           <button type="submit" class="form__submit">Зарегистрироваться!</button>
           <input type="hidden" name="charset" value="UTF-8"/>
           <input type="hidden" name="default_list_id" value="8412415"/>
@@ -54,7 +54,7 @@
           <div class="speakers">
             <div class="speaker">
               <div class="wrap-imga">
-                <div class="img-wrap"><img src="./assets/img/timofey2.png" alt=""/></div><a href="https://vk.com/tim.chaptykov" target="_blank"><span class="fa">&#xf189;</span></a>
+                <div class="img-wrap"><img src="/assets/img/timofey2.png" alt=""/></div><a href="https://vk.com/tim.chaptykov" target="_blank"><span class="fa">&#xf189;</span></a>
               </div>
               <p class="speaker-title">Тимофей Чаптыков</p>
               <p class="speaker-description"><b>Ранее:</b> победитель Всероссийских Дельфийских игр в номинации "Веб-дизайн",  сооснователь красноярского коворкинг-кафе "Фургон", работал в digital-агентстве SmartHeart и компании 2ГИС.</p>
@@ -62,7 +62,7 @@
             </div>
             <div class="speaker">
               <div class="wrap-imga">
-                <div class="img-wrap"><img src="./assets/img/dasha2.jpg" alt=""/></div><a href="https://vk.com/d_pushkarskaya" target="_blank"><span class="fa">&#xf189;</span></a>
+                <div class="img-wrap"><img src="/assets/img/dasha2.jpg" alt=""/></div><a href="https://vk.com/d_pushkarskaya" target="_blank"><span class="fa">&#xf189;</span></a>
               </div>
               <p class="speaker-title">Дарья Пушкарская</p>
               <p class="speaker-description"><b>Ранее:</b> работала разработчиком интерфейсов в компании 2ГИС, а также преподавателем и наставником в школе LoftSchool.</p>
@@ -84,33 +84,3 @@
     </div>
   </div>
 </body>
-
-<!-- <!— Yandex.Metrika counter —> -->
-<script type="text/javascript">
-(function (d, w, c) {
-(w[c] = w[c] || []).push(function() {
-try {
-w.yaCounter41328989 = new Ya.Metrika({
-id:41328989,
-clickmap:true,
-trackLinks:true,
-accurateTrackBounce:true,
-webvisor:true
-});
-} catch(e) { }
-});
-
-var n = d.getElementsByTagName("script")[0],
-s = d.createElement("script"),
-f = function () { n.parentNode.insertBefore(s, n); };
-s.type = "text/javascript";
-s.async = true;
-s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-if (w.opera == "[object Opera]") {
-d.addEventListener("DOMContentLoaded", f, false);
-} else { f(); }
-})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/41328989" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- <!— /Yandex.Metrika counter —> -->
