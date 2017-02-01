@@ -119,27 +119,27 @@ body {
 }
 
 .email-img {
-	background: url(../img/email.svg);
+	background: url(./img/email.svg);
 }
 
 .github-img {
-	background: url(../img/github.svg);
+	background: url(./img/github.svg);
 }
 
 .vk-img {
-	background: url(../img/vk.svg);
+	background: url(./img/vk.svg);
 }
 
 .phone-img {
-	background: url(../img/phone.svg);
+	background: url(./img/phone.svg);
 }
 
 .tw-img {
-	background: url(../img/tw.svg);
+	background: url(./img/tw.svg);
 }
 
 .loc-img {
-	background: url(../img/loc.svg);
+	background: url(./img/loc.svg);
 }
 
 .socials__item-img {
