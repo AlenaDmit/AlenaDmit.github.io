@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "BrutalRegular";
+    src: url("fonts/BrutalRegular.eot");
+    src: url("fonts/BrutalRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/BrutalRegular.woff") format("woff"),
+    url("fonts/BrutalRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BrutalBold";
+    src: url("fonts/BrutalBold.eot");
+    src: url("fonts/BrutalBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/BrutalBold.woff") format("woff"),
+    url("fonts/BrutalBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BrutalMedium";
+    src: url("fonts/BrutalMedium.eot");
+    src: url("fonts/BrutalMedium.eot?#iefix")format("embedded-opentype"),
+    url("fonts/BrutalMedium.woff") format("woff"),
+    url("fonts/BrutalMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BrutalLight";
+    src: url("./fonts/BrutalLight.eot");
+    src: url("./fonts/BrutalLight.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/BrutalLight.woff") format("woff"),
+    url("./fonts/BrutalLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
